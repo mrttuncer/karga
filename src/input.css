@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Scandia-medium';
+    src: url('/font/Scandia/Scandia-Medium.eot');
+    src: local('Scandia Medium'), local('Scandia-Medium'),
+        url('/font/Scandia/Scandia-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/font/Scandia/Scandia-Medium.woff2') format('woff2'),
+        url('/font/Scandia/Scandia-Medium.woff') format('woff'),
+        url('/font/Scandia/Scandia-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family:'Scandia-regular';
+    src: url('/font/Scandia/Scandia-Regular.eot');
+    src: local('Scandia Regular'), local('Scandia-Regular'),
+        url('/font/Scandia/Scandia-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/font/Scandia/Scandia-Regular.woff2') format('woff2'),
+        url('/font/Scandia/Scandia-Regular.woff') format('woff'),
+        url('/font/Scandia/Scandia-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:'RigSans-medium';
+    src: url('/font/RigSans/RigSans-Medium.ttf');
+}
+@font-face {
+    font-family:'RigSans-regular';
+    src: url('/font/RigSans/RigSans-Regular.ttf');
+}
