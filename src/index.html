@@ -7,12 +7,69 @@
     <title>Home</title>
     <link rel="stylesheet" href="/dist/style.css">
 </head>
-<body class="bg-crow bg-cover "> 
-<aside>
-    <p class="font-scandia-medium text-center">font-1 deneme</p>
-    <p class="font-scandia-regular text-center">font-2 deneme</p>
-    <p class="font-rigsans-medium text-center">font-1 deneme</p>
-    <p class="font-rigsans-regular text-center">font-2 deneme</p>
-</aside>
+<body class="bg-quaternary bg-cro bg-cover bg-center"> 
+    <header class=" flex flex-row items-center justify-between border-b border-black border-solid">
+        <figure class="flex px-9">
+            <img src="/images/raven-nameless.svg" alt="raven">
+            <p class="text-extra uppercase font-scandia-medium pl-6 text-primary">Karga</p>
+        </figure>
+        <nav class="md:flex flex-row justify-between font-rigsans-regular items-center text-primary hidden">
+            <a href="index.html" class="px-12 py-9  border-solid border-l border-black   "><b> Home</b></a>
+            <a href="about-us.html" class="px-12 py-9  border-solid border-l border-black ">About Us</a>
+            <a href="our-work.html" class="px-12 py-9  border-solid border-l border-black ">Our Work</a>
+            <a href="contact-us.html" class="px-12 py-9  border-solid border-l border-black ">Contact Us</a>
+            <a href="tell-us-about-your-project.html" class="px-12 py-9 border border-solid border-l border-black  text-white bg-primary">Tell Us About Your Project</a>
+        </nav>
+    </header>
+    <aside>
+
+    </aside>
+    <footer class="grid grid-cols-12 container mx-auto px-5">
+        <div class="col-span-3">
+            <img src="/images/raven.svg" alt="raven" class="mb-5">
+            <p class="font-rigsans-regular text-2xl">We build applications the way it should be.</p>
+        </div>
+        <div class="col-span-9 flex flex-row justify-between">
+            <div>
+                <p class="font-scandia-medium text-xl mb-4">Explore</p>
+                <nav class="flex flex-col gap-y-2.5 text-lg">
+                    <a href="index.html">Home</a>
+                    <a href="about-us.html">About Us</a>
+                    <a href="our-work.html">Our Work</a>
+                    <a href="contact-us.html">Contact Us</a>
+                </nav>
+            </div>
+            <div>
+                <p class="font-scandia-medium text-xl mb-4">Other Services</p>
+                <nav class="flex flex-col gap-y-2.5 text-lg">
+                    <a href="">Made By Sense</a>
+                    <a href="">Social</a>
+                    <a href="">Uğur Arıcı</a>
+                </nav>
+            </div>
+            <div>
+                <p class="font-scandia-medium text-xl mb-4">Contact</p>
+                <nav class="flex flex-col gap-y-2.5 text-lg">
+                    <a href="">+90 212 951 06 27</a>
+                    <a href="">karga@karga.net</a>
+                </nav>
+            </div>
+            <div>
+                <p class="font-scandia-medium text-xl mb-4">Want Us To Reach You?</p>
+                <div class="flex flex-col gap-y-6 text-lg">
+                    <p>Drop your mail address and we will reach you!</p>
+                    <div>
+                        <input type="email" placeholder="johndoe@example.com" class="border border-solid border-black w-full p-5" required>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-span-12 flex flex-row justify-between items-center">
+           <p class="font-rigsans-regular "> Copyright © 2021 <b>KARGA</b> All rights reserved.</p>
+           <p class="font-rigsans-regular "> Terms and Privacy</p>
+
+        </div>
+    </footer>
 </body>
 </html>

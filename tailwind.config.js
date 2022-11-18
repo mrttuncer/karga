@@ -17,6 +17,9 @@ module.exports = {
       'rigsans-medium': ['RigSans-medium','cursive'],
       'rigsans-regular': ['RigSans-regular','cursive'],
     },
+    fontSize: {
+      'extra':'38px',
+    },
     
   },
 },
