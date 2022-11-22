@@ -18,9 +18,12 @@ module.exports = {
       'rigsans-regular': ['RigSans-regular','cursive'],
     },
     fontSize: {
-      'extra':'38px',
+      'extra':'28px',
+      'extra-2' :'38px',
     },
-    
+    lineHeight: {
+      'other':'35px',
+    },
   },
 },
   plugins: [],
