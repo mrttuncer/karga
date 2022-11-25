@@ -23,7 +23,11 @@ module.exports = {
     },
     lineHeight: {
       'other':'35px',
+      'header' : '80px',
     },
+    boxShadow: {
+      'button':'7px 7px 0 -1.5px rgba(240,240,240),7px 7px rgba(39,35,67)'
+    }
   },
 },
   plugins: [],
