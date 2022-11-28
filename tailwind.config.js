@@ -27,7 +27,10 @@ module.exports = {
     },
     boxShadow: {
       'button':'7px 7px 0 -1.5px rgba(240,240,240),7px 7px rgba(39,35,67)'
-    }
+    },
+    strokeWidth:{
+      '0.5':'0.5px'
+    },
   },
 },
   plugins: [],
