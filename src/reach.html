@@ -9,7 +9,7 @@
 </head>
 <body class="bg-crow bg-left-top">
     <div class="bg-quaternary container  mx-auto border-x border-black ">
-        <header class=" flex flex-row items-center justify-between border-b border-black border-r border-solid container mx-auto fixed z-100 bg-quaternary">
+        <header class=" flex flex-row items-center justify-between border-b border-black border-r border-solid container mx-auto fixed z-50 bg-quaternary">
             <figure class="flex lg:px-9 px-4 items-center py-6">
                 <img src="/images/raven-nameless.svg" alt="raven">
                 <p class="text-extra-2 uppercase font-scandia-medium lg:pl-6 pl-0  text-primary leading-tight">Karga</p>
@@ -19,42 +19,41 @@
                 <a href="about-us.html" class="xl:px-12  h-full px-5 py-9  border-solid border-l border-black ">About Us</a>
                 <a href="our-work.html" class="xl:px-12  h-full px-5 py-9  border-solid border-l border-black ">Our Work</a>
                 <a href="contact-us.html" class="xl:px-12  h-full px-5 py-9  border-solid border-l border-black ">Contact Us</a>
-                <a href="tell-us-about-your-project.html" class="xl:px-12 px-5 py-9 border-solid border-l border-black  text-white bg-primary">Tell Us About Your Project</a>
+                <a href="project-quest-1.html" class="xl:px-12 px-5 py-9 border-solid border-l border-black  text-white bg-primary">Tell Us About Your Project</a>
             </nav>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12 p-0 lg:hidden mr-4 border-r">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
               </svg>
         </header>
         <div class="pb-8 pt-32 border-b border-black">
-            <h1 class="text-7xl font-scandia-medium tracking-tighter mx-auto text-center text-primary leading-tight">Contact Us</h1>
+            <h1 class="text-7xl font-scandia-medium tracking-tighter mx-auto text-center text-primary leading-tight stroke-2 stroke-primary">Contact Us</h1>
             <h2 class="text-extra leading-8 text-primary font-scandia-medium text-center mx-auto">I Just Wanna Say Hi And Ask Something</h2>
         </div>
         <div class="grid grid-cols-12 gap-x-5 border-b border-black">
-            <div class="col-span-4 flex flex-col text-xl text-secondary tracking-wide font-rigsans-regular leading-other items-center border-r border-black py-28 text-center">
-                <div class="mb-14 flex flex-col">
+            <div class="md:col-span-4 col-span-12 flex flex-col text-xl text-secondary tracking-wide font-rigsans-regular leading-other items-center md:border-r border-black border-b md:border-b-0 border-r-0 py-28 text-center gap-y-14">
+                <div class="flex flex-col w-full lg:w-2/3 mx-auto">
                     <img src="/images/tel.svg" alt="tel" class="mb-6 inline mx-auto">
                     <a href="tel:+90 212 951 06 27" class="">+90 212 951 06 27</a>
                 </div>
-                <div class="mb-14 flex flex-col">
+                <div class=" flex flex-col w-2/3 mx-auto">
                     <img src="/images/mail.svg" alt="mail" class="mb-6 inline mx-auto ">
                     <a href="mailto:karga@karga.net">karga@karga.net</a>
                 </div>
-                <div class="">
-                    <img src="/images/ma.svg" alt="map" class="mb-6 inline">
-                    <p class="">Esentepe Talatpaşa Caddesi <br> No:5 Harman Sok. <br> Girişi, 34394 Şişli/İstanbul</p>
+                <div class="flex flex-col w-2/3 mx-auto">
+                    <img src="/images/ma.svg" alt="map" class="mb-6 inline mx-auto">
+                    <address class="not-italic"> Esentepe Talatpaşa Caddesi No:5 Harman Sok. Girişi, 34394 Şişli/İstanbul</address>
                 </div>
             </div>
-            <div class="col-span-8 grid grid-cols-12 py-28">
-                <div class="col-span-9 mx-auto flex flex-col gap-y-8 w-full">
-                    <div class="flex flex-row gap-x-5">
-                        <input type="text" name="first-name" id="first-name" required placeholder="Name" class="border border-black p-7 text-xl text-secondary tracking-wide font-rigsans-regular leading-other">
-                        <input type="email" name="mail" id="mail" required placeholder="E-Mail" class="border border-black  p-7 text-xl text-secondary tracking-wide font-rigsans-regular leading-other">
+            <div class="col-span-12 md:col-span-8 py-28 my-auto justify-center">
+                <div class="mx-auto flex flex-col gap-y-8 w-3/4">
+                    <div class="grid grid-cols-12 gap-x-5 gap-y-8 ">
+                        <input type="text" name="first-name" id="first-name" required placeholder="Name" class="border border-black p-7 col-span-12 lg:col-span-6 text-xl text-secondary tracking-wide font-rigsans-regular leading-other">
+                        <input type="email" name="mail" id="mail" required placeholder="E-Mail" class="border border-black  p-7 col-span-12 lg:col-span-6 text-xl text-secondary tracking-wide font-rigsans-regular leading-other">
                     </div>
                         <input type="text" name="subject" id="subject" placeholder="Subject" class="border border-black  p-7 text-xl text-secondary tracking-wide font-rigsans-regular leading-other">
-                        <textarea name="message" id="message" placeholder="Your Message..." rows="3" class="border border-black  p-7 text-xl text-secondary tracking-wide font-rigsans-regular leading-other resize-none"></textarea>
-                        <button class="py-5 px-12 border-primary border bg-primary text-white font-rigsans-regular text-lg shadow-button mx-auto "><a href="reach.html" class="flex flex-row items-center"> Send <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 ml-auto">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
-                          </svg></a> </button>
+                        <textarea name="message" id="message" placeholder="Your Message..." rows="5" class="border border-black  p-7 text-xl text-secondary tracking-wide font-rigsans-regular leading-other resize-none"></textarea>
+                        <a href="request-sent.html" class="py-5 px-12 border-primary border bg-primary text-white font-rigsans-medium text-lg shadow-button ml-auto "><button class="flex flex-row items-center mx-auto">Send<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 ml-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" /></svg></button></a>
                 </div>  
             </div>
         </div> 
