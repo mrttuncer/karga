@@ -31,6 +31,9 @@ module.exports = {
     strokeWidth:{
       '0.5':'0.5px'
     },
+    padding:{
+      'additional':'9px'
+    },
   },
 },
   plugins: [],
