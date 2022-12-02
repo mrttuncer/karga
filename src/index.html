@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>KARGA | Home</title>
     <link rel="stylesheet" href="/dist/style.css">
 </head>
-<body class="bg-crow bg-right-top ">
-    <div class="bg-quaternary lg:w-10/12 w-full  mx-auto border-x border-black ">
-        <header class=" flex flex-row items-center justify-between border-b border-black border-r  lg:w-10/12 w-full mx-auto fixed z-50 bg-quaternary">
+<body class="bg-crow bg-top">
+    <div class="bg-quaternary container  mx-auto border-x border-black ">
+        <header class=" flex flex-row items-center justify-between border-b border-black border-r border-solid container mx-auto fixed z-50 bg-quaternary">
             <figure class="flex lg:px-9 px-4 items-center py-6">
                 <img src="/images/raven-nameless.svg" alt="raven">
                 <p class="text-extra-2 uppercase font-scandia-medium lg:pl-6 pl-0  text-primary leading-tight">Karga</p>
@@ -19,18 +19,18 @@
                 <a href="about-us.html" class="xl:px-12  h-full px-5 py-9  border-solid border-l border-black ">About Us</a>
                 <a href="our-work.html" class="xl:px-12  h-full px-5 py-9  border-solid border-l border-black ">Our Work</a>
                 <a href="contact-us.html" class="xl:px-12  h-full px-5 py-9  border-solid border-l border-black ">Contact Us</a>
-                <a href="tell-us-about-your-project.html" class="xl:px-12 px-5 py-9 border-solid border-l border-black  text-white bg-primary">Tell Us About Your Project</a>
+                <a href="project-quest-1.html" class="xl:px-12 px-5 py-9 border-solid border-l border-black  text-white bg-primary">Tell Us About Your Project</a>
             </nav>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12 p-0 lg:hidden mr-4">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12 p-0 lg:hidden mr-4 border-r">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
               </svg>
         </header>
         <div class="md:pb-40 md:pt-64 pt-40 pb-20 border-b border-black px-8">   
-            <h1 class="md:text-7xl text-4xl font-scandia-medium max-w-3xl tracking-tight mx-auto text-center mb-5 text-primary leading-tight">We build Applications The Way It Should Be.</h1>
+            <h1 class="md:text-7xl text-4xl font-scandia-medium max-w-3xl tracking-tighter stroke-primary stroke-2 mx-auto text-center mb-5 text-primary leading-tight">We build Applications The Way It Should Be.</h1>
             <p class="font-rigsans-regular text-center text-2xl max-w-lg mx-auto mb-10 text-secondary leading-9">We are planning and developing user-friendly, rapid and sustainable web experiences for you.</p>
             <div class="max-w-lg mx-auto flex md:flex-row justify-between flex-col gap-y-4">
-                <button class="py-5 px-12  border-primary border bg-primary text-white font-rigsans-regular text-lg md:shadow-button"><a href="tell-us-about-your-project.html"> Tell Us About Your Project</a></button>
-                <button class="py-5 px-12 border-solid border-2 border-primary font-rigsans-regular text-lg text-primary ">Our Work</button>
+                <a href="project-quest-1.html"><button class="py-5 px-12  border-primary border bg-primary text-white font-rigsans-medium text-lg md:shadow-button">Tell Us About Your Project</button></a>
+                <a href="our-work.html"><button  class="py-5 px-12 border-solid border-2 border-primary font-rigsans-medium text-lg text-primary">Our Work</button></a>
             </div>
         </div>
         <div class="grid grid-cols-12 px-8 border-b border-black py-24 gap-y-10">
@@ -41,70 +41,101 @@
                 <p class="text-xl text-secondary tracking-wide font-rigsans-regular max-w-lg leading-other">Laravel, VueJs, pHp, JavaScript, Phyton, WordPress, Webflow, All Adobe Programs, Blender, Shopify</p>
             </div>
             <div class="md:block hidden"></div>
-            <div class="md:col-span-5 col-span-12 flex flex-col justify-around gap-y-14">
-                <div class="flex flex-row justify-around">
-                <img src="/images/laravel.svg" alt="laravel" class="">
-                <img src="/images/vue-js-1.svg" alt="laravel" class="">
-                <img src="/images/word-press.svg" alt="laravel" class="">
-                <img src="/images/phyton.svg" alt="laravel" class="">
+            <div class="md:col-span-5 col-span-12 flex flex-col my-auto justify-between text-center gap-y-12 ">
+                <div class="flex flex-row justify-around gap-x-6">
+                <img src="/images/laravel.svg" alt="laravel">
+                <img src="/images/vue-js-1.svg" alt="vue-js">
+                <img src="/images/word-press.svg" alt="word-press">
+                <img src="/images/phyton.svg" alt="phyton">
                 </div>
-                <div class="flex flex-row justify-around">
-                <img src="/images/shopify-ar21.svg" alt="laravel" class="">
-                <img src="/images/js.svg" alt="laravel" class="">
-                <img src="/images/php-logo.svg" alt="laravel" class="">
+                <div class="flex flex-row justify-around gap-x-6">
+                <img src="/images/shopify-ar21.svg" alt="shopify">
+                <img src="/images/js.svg" alt="js">
+                <img src="/images/php-logo.svg" alt="php">
                 </div>
-                <div class="flex flex-row justify-around">
-                <img src="/images/adobe.svg" alt="laravel" class="">
-                <img src="/images/web-flow.svg" alt="laravel" class="">
-                <img src="/images/blender.svg" alt="laravel" class="">
+                <div class="flex flex-row justify-around gap-x-6">
+                <img src="/images/adobe.svg" alt="adobe">
+                <img src="/images/web-flow.svg" alt="web-flow">
+                <img src="/images/blender.svg" alt="blender">
                 </div>
             </div>
         </div>
-        <div class="px-8 grid grid-cols-12 py-24 border-b border-black">
-            <div class="col-span-3">
+        <div class="px-8 grid grid-cols-12 py-24 border-b border-black gap-x-5 gap-y-10">
+            <div class="col-span-12 md:col-span-3 my-auto mr-10">
                 <h2 class="text-extra text-primary font-scandia-medium mb-4">Projects We Launched</h2>
-                <p class="text-xl text-secondary tracking-wide font-rigsans-regular mb-8 leading-other">Here are some of our selected projects for you to check out. For more project cases, please visit Our Work Page.</p>
-                <button class="py-5 px-8 text-white font-rigsans-medium bg-primary shadow-button"><a href="our-work.html"></a>Our Work</button>
+                <p class="text-xl text-secondary tracking-wide font-rigsans-regular leading-other mb-8">Here are some of our selected projects for you to check out. For more project cases, please visit Our Work Page.</p>
+                <a href="our-work.html"><button class="py-5 px-12 border-primary border bg-primary text-white font-rigsans-medium text-lg md:shadow-button">Our Work</button></a>
             </div>
-            <div class="col-span-3">
-                <figure class="border border-black">
-                    <img src="/images/iles-page.png" alt="iles-page" class="inline relative">
-                    <img src="/images/iles-logo.png" alt="iles-logo" class="border border-black rounded-full bg-white absolute">
+            <div class="md:col-span-3 col-span-12 my-auto">
+                <figure>
+                    <div class="relative">
+                    <img src="/images/iles-page.png" alt="iles-page" class="inline border border-black">
+                     <div class="absolute -bottom-9 right-6 md:-bottom-5 md:right-4 md:w-10 xl:-bottom-9 xl:right-6 xl:w-auto lg:w-12 lg:-bottom-6"><img src="/images/iles-logo.png" alt="iles-logo" class="border border-black rounded-full bg-white md:py-2 md:px-additional py-3.5 px-4 xl:py-3.5 xl:px-4"></div>
+                    </div>
+                    <figcaption class="p-6 border-x border-b border-black">
+                         <h3 class="text-primary text-extra leading-8 font-scandia-regular mb-2 uppercase">ILES HR </h3>
+                         <p class="text-primary font-rigsans-regular text-xl leading-7 tracking-wide">Website Redesign, Webflow, Wordpress</p>
+                    </figcaption>
                 </figure>
-
             </div>
+            <div class="md:col-span-3 col-span-12 my-auto">
+                <figure>
+                    <div class="relative">
+                    <img src="/images/iles-page.png" alt="iles-page" class="inline border border-black">
+                     <div class="absolute -bottom-9 right-6 md:-bottom-5 md:right-4 md:w-10 xl:-bottom-9 xl:right-6 xl:w-auto lg:w-12 lg:-bottom-6"><img src="/images/iles-logo.png" alt="iles-logo" class="border border-black rounded-full bg-white md:py-2 md:px-additional py-3.5 px-4 xl:py-3.5 xl:px-4"></div>
+                    </div>
+                    <figcaption class="p-6 border-x border-b border-black">
+                         <h3 class="text-primary text-extra leading-8 font-scandia-regular mb-2 uppercase">ILES HR </h3>
+                         <p class="text-primary font-rigsans-regular text-xl leading-7 tracking-wide">Website Redesign, Webflow, Wordpress</p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="md:col-span-3 col-span-12 my-auto">
+                <figure>
+                    <div class="relative">
+                    <img src="/images/iles-page.png" alt="iles-page" class="inline border border-black">
+                     <div class="absolute -bottom-9 right-6 md:-bottom-5 md:right-4 md:w-10 xl:-bottom-9 xl:right-6 xl:w-auto lg:w-12 lg:-bottom-6"><img src="/images/iles-logo.png" alt="iles-logo" class="border border-black rounded-full bg-white md:py-2 md:px-additional py-3.5 px-4 xl:py-3.5 xl:px-4"></div>
+                    </div>
+                    <figcaption class="p-6 border-x border-b border-black">
+                         <h3 class="text-primary text-extra leading-8 font-scandia-regular mb-2 uppercase">ILES HR </h3>
+                         <p class="text-primary font-rigsans-regular text-xl leading-7 tracking-wide">Website Redesign, Webflow, Wordpress</p>
+                    </figcaption>
+                </figure>
+            </div>
+
         </div>
-        <div class="py-24 grid grid-cols-12 px-8 border-b border-black">
+        <div class="py-24 grid grid-cols-12 px-8 border-b border-black gap-y-20">
             <div class="md:col-span-6 col-span-12">
                 <h2 class="text-extra text-primary font-scandia-medium mb-4">About KARGA</h2>
                 <p class="text-xl text-secondary tracking-wide font-rigsans-regular leading-other mb-8">Karga was founded 7 years ago by Uğur Arıcı, who has been in the industry for more than 15 years. Since its establishment, it has helped many companies take a big step in their digital transformation by providing the most innovative, fastest and clearest solutions in line with projects from micro organizations to large companies.</p>
-                <button class="px-9 py-5 border-primary bg-primary text-white font-rigsans-medium shadow-button"><a href="tell-us-about-your-project.html">Tell Us About Your Project</a></button>
+                <a href="project-quest-1.html"><button class="px-9 py-5 border-primary bg-primary text-white font-rigsans-medium shadow-button">Tell Us About Your Project
+                </button></a>
             </div>
             <div class="md:col-span-6 col-span-12 pl-0 md:pl-12">
                 <h2 class="text-extra text-primary font-scandia-medium mb-4">Karga Means Crow In Turkish</h2>
-                <p class="text-xl text-secondary tracking-wide font-rigsans-regular leading-other mb-8">Crows are very intelligent animals. They know how to use the tools <br> at their disposal in conjunction with one another to solve a problem. <br> Just like the crows, we use the most appropriate tools among the tools we use to reach the final result in the fastest and easiest way.</p>
-                <button class="px-9 py-5 border-primary bg-primary text-white font-rigsans-medium shadow-button"><a href="tell-us-about-your-project.html">Watch Video</a></button>
+                <p class="text-xl text-secondary tracking-wide font-rigsans-regular leading-other mb-8">Crows are very intelligent animals. They know how to use the tools at their disposal in conjunction with one another to solve a problem.Just like the crows, we use the most appropriate tools among the tools we use to reach the final result in the fastest and easiest way.</p>
+                <a href="https://www.youtube.com/watch?v=cbSu2PXOTOc&feature=emb_title" target="_blank"><button class="px-9 py-5 border-primary bg-primary text-white font-rigsans-medium shadow-button">Watch Video</button></a>
             </div>
         </div>
         <div class="py-24 border-b border-black grid grid-cols-12">
-            <div class="col-span-10 grid grid-cols-12 gap-y-20 col-start-2">
-                <div class="col-span-12 md:col-span-4">
+            <div class="xl:col-span-10 col-span-12 px-8 xl:px-0 grid grid-cols-12 gap-y-24 xl:col-start-2 md:gap-x-10 lg:gap-x-20 gap-x-0">
+                <div class="col-span-12 md:col-span-4 ">
                     <span class="border-2 text-4xl border-primary rounded-full px-5 py-1.5">1</span>
                     <h2 class="text-extra text-primary font-scandia-medium mb-4 uppercase mt-8">WE PLAN FOR YOU</h2>
                     <p class="text-xl text-secondary tracking-wide font-rigsans-regular leading-other mb-8">If you have an idea and you don’t know where to start or what to do, we’re here for you! Contact with us via MadebySense, and let’s start planning together.</p>
-                    <button class="px-8 py-5 border-primary bg-primary text-white font-rigsans-medium shadow-button"><a href="https://madebysense.co/">Visit MadebySense</a></button>
+                    <a href="https://madebysense.co/" target="_blank"><button class="px-8 py-5 mt-0  border-primary bg-primary text-white font-rigsans-medium shadow-button">Visit MadebySense</button></a>
                 </div>
                 <div class="col-span-12 md:col-span-4">
                     <span class="border-2 text-4xl border-primary rounded-full px-5 py-1.5">2</span>
                     <h2 class="text-extra text-primary font-scandia-medium mb-4 uppercase mt-8">WE DESIGN AND DEVELOP</h2>
                     <p class="text-xl text-secondary tracking-wide font-rigsans-regular leading-other mb-8">Tell us about your project and we design and develop it taking into account your wishes, goals, characteristics and purpose of your brand. <span class="font-semibold"> You’re here!</span></p>
-                    <button class="px-8 py-5 border-primary bg-primary text-white font-rigsans-medium shadow-button"><a href="tell-us-about-your-project.html">Tell Us About Your Project </a></button>
+                    <a href="project-quest-1.html"><button class="px-8 py-5 border-primary bg-primary text-white font-rigsans-medium shadow-button">Tell Us About Your Project</button></a>
                 </div>
                 <div class="col-span-12 md:col-span-4">
                     <span class="border-2 text-4xl border-primary rounded-full px-5 py-1.5">3</span>
                     <h2 class="text-extra text-primary font-scandia-medium mb-4 uppercase mt-8">WE SOCIAL IT FOR YOU</h2>
                     <p class="text-xl text-secondary tracking-wide font-rigsans-regular leading-other mb-8">If you have an idea and you don’t know where to start or what to do, we’re here for you! Contact with us via MadebySense, and let’s start planning together.</p>
-                    <button class="px-8 py-5 border-primary bg-primary text-white font-rigsans-medium shadow-button"><a href="">Send Package</a></button>
+                    <a href="select-packages.html"><button class="px-8 py-5 border-primary bg-primary text-white font-rigsans-medium shadow-button">Send Package</button></a>
                 </div>
             </div>
         </div>
