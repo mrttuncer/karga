@@ -10,6 +10,10 @@ module.exports = {
     },
     backgroundImage: {
       'crow': "url('/images/background.svg')",
+      'crow-multiple': "url('/images/bg-left.png'),url('/images/bg-right.png')",
+    },
+    backgroundPosition:{
+      'combine':'left,right'
     },
     fontFamily: {
       'scandia-medium': ['Scandia-medium','cursive'],
