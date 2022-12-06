@@ -13,7 +13,7 @@ module.exports = {
       'crow-multiple': "url('/images/bg-left.png'),url('/images/bg-right.png')",
     },
     backgroundPosition:{
-      'combine':'left,right'
+      'combine':'left top,right top',
     },
     fontFamily: {
       'scandia-medium': ['Scandia-medium','cursive'],
@@ -37,6 +37,9 @@ module.exports = {
     },
     padding:{
       'additional':'9px'
+    },
+    maxWidth:{
+      'max-screen':'1900px',
     },
   },
 },
